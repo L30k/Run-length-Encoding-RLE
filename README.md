@@ -23,8 +23,8 @@ A saída após a compressão RLE será: "3A3B3C4D".
 ## Benefícios
 
 - O RLE é um algoritmo de compressão simples e eficiente para strings com repetições de caracteres.
-- Este programa fornece uma maneira rápida e fácil de comprimir dados usando o algoritmo RLE em C.
-- Útil para economizar espaço de armazenamento em strings com muitas repetições de caracteres, como dados de imagens ou áudio.
+- Esta aplicação oferece uma maneira rápida e fácil de aprender a utilizar uma tabela hash em C, pois a implementação do algoritmo RLE envolve o uso desse tipo de estrutura de dados.
+
 
 ## Requisitos
 
