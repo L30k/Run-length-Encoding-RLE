@@ -34,7 +34,7 @@ A saída após a compressão RLE será: "3A3B3C4D".
 
 1. Abra o terminal.
 2. Navegue até o diretório onde o arquivo de código-fonte do programa está localizado.
-3. Compile o programa com o comando: `gcc rle.c -o rle`
+3. Compile o programa com o comando: `gcc RLE.c -o rle`
 4. Execute o programa com o comando: `./rle`
 
 ## Autor
