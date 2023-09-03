@@ -5,9 +5,10 @@
 void RLE(char nome[]);
 
 int main(){
-    char nome[40] = "aaavkkkkkkkkmmyyyyy";
+    char nome[40];
     
-    printf("%s\n", nome);
+    printf("Digite um texto:\n");
+    scanf("%39s", nome);
     
     RLE(nome);
     
@@ -37,5 +38,7 @@ void RLE(char nome[]){
         aux[pos] = aux2[j];
     }
     
-    printf("%s", aux);
+    aux[pos] = '\0'; // Termina a string aux com '\0' para evitar comportamento indefinido
+    
+    printf("%s\n", aux);
 }
